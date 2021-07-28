@@ -3,16 +3,19 @@
 }
 
 body {
-	background-color:#000;
 	color: #fff;
   font-family: 'Alegreya', serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.7;
   margin: 0;
 }
 
 section {
-    padding: 72px 0;
+		background-image: url(https://images.pexels.com/photos/4874232/pexels-photo-4874232.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 160px 0;
 }
 
 .container {
@@ -22,8 +25,8 @@ section {
 }
 
 .song-info {
-  margin: 0 auto;
-  width: min(500px, 90%);
+	margin: 0 auto;
+	width: min(520px, 90%);
 }
 
 .song-info header {
@@ -48,5 +51,5 @@ section {
 
 .song-info footer {
   text-align: right;
-  font-size: 18px;
+  font-size: 22px;
 }
