@@ -1,0 +1,50 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Alegreya', serif;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+section {
+    padding: 72px 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 20px;
+}
+
+.song-info {
+  margin: 0 auto;
+  width: min(500px, 90%);
+}
+
+.song-info header {
+  margin-bottom: 40px;
+}
+
+.song-info h1, .song-info h2 {
+  margin: 0;
+}
+
+.song-info h1 {
+  font-size: 36px;
+}
+
+.song-info h2 {
+  font-size: 24px;
+}
+
+.song-text p {
+  margin: 32px 0;
+}
+
+.song-info footer {
+  text-align: right;
+  font-size: 18px;
+}
