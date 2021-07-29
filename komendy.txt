@@ -1,8 +1,1 @@
-Dokumentacja sugeruje instalację globalną:
-npm install -g html-validate
-A w poleceniu była mowa o tym, żeby użyć flagi --save-dev
-Czy to się nie kłóci? Inaczej czy to ma sens, aby zainstalować tak: npm install -g --save-dev html-validate?
-
-Zainstalowałem globalnie. Wówczas komenda sprawdzająca wszystkie pliki html w bieżącym katalogu i podkatalogach może wyglądać tak:
-html-validate ./
-U mnie działa
+html-validate *.html
